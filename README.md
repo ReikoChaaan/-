@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halloweenowa Randka</title> <!-- Dodany tytuł strony -->
+    <title>Halloweenowa Randka</title> 
 
     <style>
         body {
@@ -113,12 +113,12 @@
         </div>
 
         <div class="calendar">
-            <form action="https://formspree.io/f/xeoqjdny" method="POST">
-                <p>Wybierz datę randki:</p>
-                <input type="date" id="datePicker" name="date" required>
-                <input type="submit" class="btn" value="Wyślij">
-            </form>
-        </div>
+    		<form action="https://formspree.io/f/xeoqjdny" method="POST">
+        	<p>Wybierz datę randki:</p>
+        	<input type="date" id="datePicker" name="date" required min="2024-10-10" max="2024-11-30">
+        	<input type="submit" class="btn" value="Wyślij">
+    	</form>
+	</div>
     </div>
 
 </body>
